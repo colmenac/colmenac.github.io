@@ -1,0 +1,28 @@
+/* styles.css */
+
+/* Style for the line */
+.line {
+    fill: none;
+    stroke: steelblue; /* Color of the line */
+    stroke-width: 2; /* Width of the line */
+  }
+  
+  /* Style for the X and Y axes */
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: #ccc; /* Color of the axes lines */
+    shape-rendering: crispEdges;
+  }
+  
+  /* Style for the axis labels */
+  .axis text {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+  }
+  
+  /* Style for the chart container */
+  .chart-container {
+    margin: 20px;
+  }
+  
